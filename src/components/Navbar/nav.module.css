@@ -8,17 +8,18 @@
   -ms-flex-direction: column;
   flex-direction: column;
   border: 1px solid #fff;
-  padding: 15px 0px 0px 15px
+  padding: 15px 0px 0px 15px;
 }
 
 .item {
-  margin: 0px 0px 10px 0px
-}
-
-.item  a.active{
-  color: #ffd900dc
+  margin: 0px 0px 10px 0px;
 }
 
 .item a {
-  color: #ffffff
+  color: #fff;
 }
+
+.item a.active {
+  color: #ffd900dc;
+}
+
