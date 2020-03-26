@@ -1,0 +1,17 @@
+{
+  "liveSassCompile.settings.formats": [
+    // This is Default.
+    // {
+    //   "format": "expanded",
+    //   "extensionName": ".css",
+    //   "savePath": "~/../css"
+    // },
+    // More Complex
+    {
+      "format": "compressed",
+      "extensionName": ".module.css",
+      "savePath": "~/../styles/"
+    }
+  ],
+  "editor.fontSize": 22,
+}

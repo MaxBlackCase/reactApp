@@ -1,0 +1,18 @@
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+  grid-template-areas: "h h" "n m";
+  -ms-grid-rows: 60px 1fr;
+  grid-template-rows: 60px 1fr;
+  -ms-grid-columns: 2fr 10fr;
+  grid-template-columns: 2fr 10fr;
+  transition: all .3s ease;
+}
+
+main {
+  grid-area: m;
+  background-color: #fff;
+  color: #212121;
+}
